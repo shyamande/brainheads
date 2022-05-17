@@ -1,0 +1,854 @@
+@font-face {
+    font-family: Brain;
+    src: url(./BaronNeue-Regular.otf);
+}
+
+@font-face {
+    font-family: cr;
+    src: url(./KronaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: lemon;
+    src: url(./LemonMilk.otf);
+}
+
+*{
+
+    overflow-x: hidden;
+
+}
+
+body,html{
+        background-color: black;
+        margin:10;
+        padding:0;
+        font-size:18px;
+        scroll-behavior: smooth;
+        box-sizing: border-box;
+
+
+}
+
+.nav_items ul{
+
+    display: flex;
+    padding:2px;
+    
+}
+
+.nav_items ul li{
+
+    padding:20px;
+    list-style-type: none;
+    overflow-y: hidden;
+}
+
+.nav_items ul li a{
+
+    color:white;
+    text-decoration: none;
+    border:3px transparent white;
+    padding:5px;
+    font-family: Brain;
+}
+
+li a:hover{
+
+    text-decoration: underline;
+    border-bottom:2px solid white;
+
+    transition: 0.6s ease;
+}
+
+ span{
+
+    color:white;
+    font-family:Brain;
+    font-size: 25px;
+    position: absolute;
+}
+#header{
+    padding:2px;
+    margin:3px;
+    margin-bottom:2px;
+    overflow-y:auto;
+    background-color: transparent    ;
+
+}
+
+.nav-heading{
+    margin:30px;
+}
+
+.nav_items{
+
+    padding:3px;
+}
+
+.container{
+    width:100%;
+    margin:0 auto;
+
+}
+
+#header .container{
+
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+
+.container img{
+
+    vertical-align: middle;
+    width:50px;
+    right:10%;
+    left:10%;
+    position:relative;
+
+
+}
+
+
+.nav-bar ul{
+
+    padding:0;
+    margin:0;
+    list-style: none;
+
+}
+
+.nav-bar ul li {
+    font-family:Brain;
+    padding:8px;
+    border:2px transparent white;
+    float:left;
+    margin-left:35px;
+    font-size:15px;
+    border-radius:10px
+}
+
+li:hover{
+
+    color:black;
+}
+
+.nav-bar ul li a{
+
+    
+    text-decoration:none;
+    color:white;
+    
+
+
+
+}
+.container1{
+
+    background-image:url('./b2.png');
+}
+
+
+.home-sec,.about-sec,.contact-sec,.faq-sec{
+
+    height:100vh;
+    display:flex;
+    align-items:center;
+}
+
+.about-sec{
+
+    background-color:black
+    
+}
+
+.contact-sec{
+
+    background-color:#dbfbf4;
+}
+
+.faq-sec{
+
+    /* background-color: orange; */
+}
+
+
+/* ********************* */
+
+.container-temp{
+    align-items: center;
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    padding:px;
+    overflow-y: hidden;
+    background-color: transparent;
+}
+
+.nav_items{
+    display: flex;
+    width:600px;
+    justify-content: space-around;
+
+}
+
+.banner{
+    background-image:url("./REPRESENTATIONALISM.png");
+
+}
+
+
+
+.container-temp{
+
+    background-color: rgba(0,0,0,0.8);
+    color:white;
+}
+.top{
+
+    font-family:Brain;
+    
+    text-decoration: none;
+}
+
+
+.nav-heading img{
+
+    vertical-align:center;
+} 
+
+.team-1{
+
+    display:flex;
+    /* justify-content: space-between; */
+
+}
+
+.container-p1{
+
+    background-color: black;
+    /* display: flex; */
+    flex:1;
+    border:20px;
+    margin:40px;
+    padding:50px;
+    font-size:x-large;
+    
+}
+
+.container-p2{
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    left:50%;
+
+    flex:1;
+
+}
+
+.container-3 h1{
+
+    /* align-items: center; */
+    font-family:Brain;
+    font-size:80px;
+    
+
+
+}
+
+.team-1{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./b2.png");
+    
+}
+.cont pre{
+
+    font-size:x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+
+    
+}
+
+.home-sec{
+
+    width:1500px;
+    height:1080px;
+    background-image: url("./ONLY\ BACKGROUND.png");
+}
+
+.title pre{
+
+    font-family: Brain;
+    text-align: center;
+    font-size:70px;
+    color:white;
+    position: absolute;
+    left:30%;
+    top:30%;
+    font-weight: bolder;
+    
+}
+
+
+.home-sec .nav_button{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    
+    align-items:center;
+    min-height: 5vh;
+    position:absolute;
+    left:45%;
+    
+
+}
+
+.btn-1{
+
+    letter-spacing: 4px;
+    width:100px;
+    height:50px;
+    background-color: rgb(0,0,0,0.8);
+    color:white;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: ease-out 0.3s;
+    box-shadow:inset 0 0 0 0 #000;
+    outline:none;
+
+}
+
+.btn-1:hover{
+
+    box-shadow:inset 100px 0 0 0 #ffff;
+    color:black;
+
+}
+
+.faq-sec{
+
+    /* background-image: url("./TEAM\ BACK.png"); */
+
+    
+
+}
+
+.question-1{
+
+    font-family:Brain;
+    position: absolute;
+    left:40%;
+    height:100vh;
+}
+
+.p2{
+
+    background-image: url("./REPRESENTATIONALISM.png");
+}
+.question-2{
+
+    font-family:Brain;
+    position: absolute;
+    left:40%;
+    height:100vh;
+}
+
+.p3{
+
+    background-image: url("./REPRESENTATIONALISM.png");
+}
+.question-3{
+
+    font-family:Brain;
+    position: absolute;
+    left:40%;
+    height:100vh;
+}
+
+.p4{
+
+    background-image: url("./REPRESENTATIONALISM.png");
+}
+.question-4{
+
+    font-family:Brain;
+    position: absolute;
+    
+}
+
+.p5{
+
+    background-image: url("./REPRESENTATIONALISM.png");
+}
+.question-5{
+
+    font-family:Brain;
+    position: absolute;
+    left:40%;
+    height:100vh;
+}
+
+.accordion{
+
+    font-family:Brain;
+    font-size:10px;
+    box-sizing:border-box;
+    margin-bottom:70px;
+}
+
+section{
+
+    background-color: black;
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.accordion-item{
+
+    background-color: #283042;
+    border-radius:.4rem;
+    margin-bottom:1rem;
+    padding:1rem;
+    box-shadow: .5rem 2px .5rem rgba(0,0,0,0.1);
+}
+
+.ac-link{
+
+    font-size:1rem;
+    color:rgba(255,255,255,.8);
+    background-color: #283042;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    
+    
+}
+
+.ac-link i{
+
+    color:#e7d5ff;
+    padding:.5rem;
+}
+
+.ac-link .remove{
+    display:none;
+}
+
+
+.answer{
+
+    max-height:0;
+    overflow: hidden;
+    position: relative;
+    background-color: #212838;
+    transition: max-height 650ms;
+    margin-top:10px;
+
+}
+
+.answer::before{
+
+    content:"";
+    position:absolute;
+    width:.6rem;
+    height:90%;
+    top:50%;
+    left:0;
+    transform:translateY(-50%);
+}
+
+
+.answer PRE{
+
+    color:#fff;
+    font-size:.6rem;
+    font-family:cr;
+    letter-spacing: 2px;
+    pasedding:2px;
+}
+
+.accordion-item:target .answer{
+
+    max-height:20rem;
+}
+
+.accordion-item:target .ac-link .add{
+
+    display: none;
+}
+
+.accordion-item:target .ac-link .remove{
+
+    display: block;
+}
+
+.team-sec{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+
+    background-color:rgb(128, 56, 56);
+    margin-top: 5px;
+    background-image: url("./TEAM\ BACK.png");
+}
+
+.container-a{
+    /* background-color: blue; */
+    /* margin-top: 200px; */
+
+
+    display: flex;
+
+    justify-content: center;
+}
+
+.container-b {
+
+    /* position: absolute; */
+    top:370vh;
+}
+
+.images-team{
+
+    overflow-y:hidden;
+    
+
+}
+
+.images-team img{
+
+    width:350px;
+    height:350px;
+    
+    padding:10px;
+    position: relative;
+    margin-bottom:4px
+    
+    
+    
+}
+
+
+.main_form{
+
+    /* background-image: url("./SOLIPSISM.png"); */
+    height:900px;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    /* margin-top:5px; */
+    overflow-y:hidden
+    
+}
+
+
+.main-bar{
+
+    background-color:rgb(0,0,0,0.8);
+    display:flex;
+
+}
+
+
+.left-container{
+
+    flex-basis:60%;
+    padding:40px 60px;
+}
+
+.right-container{
+
+    flex-basis:40%;
+    padding:40px;
+    background-color:#000;
+    /* background-image: url("./SOLIPSISM.png"); */
+}
+
+.input-row{
+
+    display:flex;
+    padding:40px;
+    justify-content: space-between;
+    margin-bottom:20px;
+}
+
+.input-row .input-group{
+
+    flex-basis:45%;
+}
+
+input{
+
+    width:100%;
+    border:2px;
+    border-bottom:1px solid #ccc;
+    outline:none;
+    padding-bottom:5px;
+    padding:3px;
+    /* border-radius: 10px; */
+}
+
+textarea{
+    
+    width:90%;
+    border:1px solid #ccc;
+    outline:none;
+    padding:10px;
+    
+}
+
+label{
+
+    margin-bottom:13px;
+    display: block;
+    color:white
+
+}
+
+button{
+
+    border-radius: 30px;
+    background:white;
+    width:100px;
+    border: none;
+    color:black;
+    margin-top:30px;
+    height:35px;
+    box-shadow: 0px 5px 10px 0px rgba(25,0,183,0.3);
+
+}
+
+button:hover{
+
+ 
+    transition: 0.6s ease;
+    background-color: black;
+    color:white;
+
+    
+}
+
+.right-container img{
+
+
+    height:400px;
+    width:400px;
+    margin-top:100px;
+    align-items: center;
+}
+
+
+.roadmapsec{
+
+    margin-top:3px;
+    background-image: url("./ABOUT.png");
+    overflow-y:hidden;
+
+
+}
+
+.roadmaps {
+
+
+    
+    float:left;
+    
+
+}
+.roadmapsec-2{
+
+    margin-top:3px;
+    background-image:url("./HOME.png");
+}
+.roadmapsec-3{
+
+    margin-top:3px;
+    background-image:url("./CHRYSELEPHANTINE.png");
+}
+
+.roadmapsec-4{
+
+    margin-top:3px;
+    background-image:url("./SOLIPSISM.png");
+}
+.roadmapsec-5{
+
+    margin-top:3px;
+    background-image:url("./bruh.png")
+}
+
+.no1 h1{
+
+    color:white;
+    font-size:80px;
+    font-family:Brain;
+    border-top:3px solid #ccc;
+    letter-spacing: 10px;
+
+
+
+}
+
+
+/* .no1{
+
+    position:relative;
+    bottom:100px;
+    display: flex;
+} */
+
+/* .no2 h2{
+
+    color:white;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+
+
+} */
+
+
+
+.no2 li {
+
+    color:white;
+    padding:30px;
+    font-family: Brain;
+    font-size:30px;
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+li a{
+
+    
+    text-decoration: none;
+    color:white;
+
+}
+
+.no2{
+
+    /* padding-bottom:5px;
+    margin-left:30px; */
+    
+}
+
+.no1{
+
+    /* padding-bottom: 300px; */
+    display: inline-block;
+}
+
+/* #rubric{
+
+    margin-top:5px;
+    display: flex;
+    flex-direction:column;
+    background-image: url("./BACK.png");
+} */
+
+.img-1{
+
+    overflow-y: hidden;
+}
+
+.img-2{
+
+    overflow-y:hidden;
+}
+
+.img-3{
+
+overflow-y: hidden;
+}
+
+.img-3 img{
+
+}
+
+.img-4{
+
+    overflow-y:hidden;
+    
+}
+
+.img-4 img{
+
+    
+}
+
+.img-5{
+
+    overflow-y:hidden;
+}
+
+.img-6{
+
+
+}   
+
+.social{
+
+   color:white;
+   text-decoration: none;
+   margin:0 3px;
+   align-items: center;
+   font-size: 40px;
+   
+}
+
+#instagram{
+
+    color:#fbad50;
+}
+
+#instagram:hover{
+
+    color:white;
+}
+
+#discord{
+
+    color:rgb(88, 101, 242);
+}
+
+#discord:hover{
+
+    color:#ccc;
+}
+#twitter{
+
+    color:#1DA1F2;
+}
+#twitter:hover{
+
+    color:#ccc;
+}
+.social:hover{
+
+    color:black;
+    transition: 0.6s ease;
+}
+
+.icons{
+
+    align-items: center;
+    margin-left:650px;
+    margin-top:40px
+}
+
