@@ -500,6 +500,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
+    height:780px;
 
     background-color:rgb(128, 56, 56);
     margin-top: 5px;
